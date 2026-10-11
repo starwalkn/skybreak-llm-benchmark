@@ -1,0 +1,121 @@
+{
+  "models": [
+    {
+      "id": "openai/gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "provider": "OpenAI",
+      "category": "High-Efficiency",
+      "open_weights": false,
+      "context_window": 128000,
+      "description": "OpenAI 最具性價比的輕量旗艦模型，適合日常對話、分類與高併發任務"
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "GPT-4o",
+      "provider": "OpenAI",
+      "category": "Flagship",
+      "open_weights": false,
+      "context_window": 128000,
+      "description": "OpenAI 旗艦全模態大模型，極強的多語言理解、複雜邏輯與工具調用能力"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "category": "High-Efficiency",
+      "open_weights": false,
+      "context_window": 200000,
+      "description": "Anthropic 極速輕量模型，編程與推理速度極快，首字延遲優異"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "name": "Claude Sonnet 4.5",
+      "provider": "Anthropic",
+      "category": "Coding & Reasoning",
+      "open_weights": false,
+      "context_window": 200000,
+      "description": "全球程式碼編寫與架構設計公認最強模型之一，支援 Prompt Caching 深度緩存"
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek V3 (Chat)",
+      "provider": "DeepSeek",
+      "category": "Open-Weights / Top Value",
+      "open_weights": true,
+      "context_window": 64000,
+      "description": "性價比之王，百萬 Token 不到 0.35 美元，媲美頂級閉源的強大中文與推理水準"
+    },
+    {
+      "id": "deepseek/deepseek-r1",
+      "name": "DeepSeek R1",
+      "provider": "DeepSeek",
+      "category": "Reasoning & Math",
+      "open_weights": true,
+      "context_window": 64000,
+      "description": "頂尖強化學習思維鏈推理模型，數學、算法與複雜邏輯對標 OpenAI o1"
+    },
+    {
+      "id": "qwen/qwen-2.5-72b-instruct",
+      "name": "Qwen 2.5 72B Instruct",
+      "provider": "Alibaba Qwen",
+      "category": "Open-Weights",
+      "open_weights": true,
+      "context_window": 131072,
+      "description": "阿里開源最強旗艦模型，中文理解與知識面極為紮實，支援 128K 超長上下文"
+    },
+    {
+      "id": "qwen/qwen-2.5-coder-32b-instruct",
+      "name": "Qwen 2.5 Coder 32B",
+      "provider": "Alibaba Qwen",
+      "category": "Coding Special",
+      "open_weights": true,
+      "context_window": 131072,
+      "description": "代碼特化模型，中端參數媲美頂級大模型的編程能力，本地部署與 API 極熱門"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "provider": "Google",
+      "category": "High-Efficiency",
+      "open_weights": false,
+      "context_window": 1048576,
+      "description": "Google 次世代百萬上下文極速模型，多模態與生成速度表現優異"
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "category": "Long-Context",
+      "open_weights": false,
+      "context_window": 2097152,
+      "description": "業界最長 200 萬上下文長度，支援大型代碼庫、整本書籍與長視頻輸入"
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Llama 3.3 70B Instruct",
+      "provider": "Meta",
+      "category": "Open-Weights",
+      "open_weights": true,
+      "context_window": 128000,
+      "description": "Meta 最新開源旗艦模型，性能逼近 405B 級別，推理與通用能力卓越"
+    },
+    {
+      "id": "mistralai/mistral-large",
+      "name": "Mistral Large",
+      "provider": "Mistral AI",
+      "category": "Flagship",
+      "open_weights": false,
+      "context_window": 128000,
+      "description": "歐洲頂級 AI 實驗室旗艦，多語言翻譯與高精度指令跟隨能力極強"
+    },
+    {
+      "id": "minimax/minimax-01",
+      "name": "MiniMax-01",
+      "provider": "MiniMax",
+      "category": "Long-Context",
+      "open_weights": false,
+      "context_window": 1000000,
+      "description": "百萬 Token 極速上下文模型，線性注意力架構，長文本處理性價比高"
+    }
+  ]
+}

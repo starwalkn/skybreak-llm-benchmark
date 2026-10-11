@@ -1,0 +1,24 @@
+{
+  "name": "skybreak-llm-benchmark",
+  "version": "1.0.0",
+  "description": "Real-time edge micro-probe benchmark runner for LLM latency, throughput, and pricing",
+  "main": "probe_runner.js",
+  "scripts": {
+    "start": "node probe_runner.js",
+    "test": "node probe_runner.js"
+  },
+  "keywords": [
+    "llm",
+    "benchmark",
+    "latency",
+    "ttft",
+    "tps",
+    "deepseek",
+    "qwen",
+    "openai",
+    "anthropic",
+    "openrouter"
+  ],
+  "author": "SkyBreak Platform",
+  "license": "MIT"
+}
