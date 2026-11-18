@@ -1,36 +1,36 @@
 {
   "eval_suite": "Skybreak Reasoning & Code Latency Benchmark v3",
-  "last_updated": "2026-11-17T10:18:08Z",
-  "timestamp": "2026-11-17 10:18:08 (UTC+8)",
+  "last_updated": "2026-11-18T14:09:39Z",
+  "timestamp": "2026-11-18 14:09:39 (UTC+8)",
   "metrics": [
     {
       "model": "Claude 3.5 Sonnet",
-      "ttft_ms": 305,
-      "throughput_tps": 77.8,
+      "ttft_ms": 333,
+      "throughput_tps": 78.0,
       "eval_score": 94.2
     },
     {
       "model": "Gemini 2.0 Flash",
-      "ttft_ms": 177,
-      "throughput_tps": 140.7,
+      "ttft_ms": 178,
+      "throughput_tps": 141.4,
       "eval_score": 93.6
     },
     {
       "model": "DeepSeek-V3",
-      "ttft_ms": 301,
-      "throughput_tps": 85.8,
+      "ttft_ms": 300,
+      "throughput_tps": 84.4,
       "eval_score": 92.8
     },
     {
       "model": "GPT-4o (Omni)",
-      "ttft_ms": 294,
-      "throughput_tps": 91.8,
+      "ttft_ms": 273,
+      "throughput_tps": 90.0,
       "eval_score": 93.1
     },
     {
       "model": "Llama 3.3 70B",
-      "ttft_ms": 353,
-      "throughput_tps": 65.9,
+      "ttft_ms": 342,
+      "throughput_tps": 63.9,
       "eval_score": 90.7
     }
   ]
